@@ -6,4 +6,4 @@ sigma = 25.8408
 # create distribution
 dist = norm(mu, sigma)
 result = dist.cdf(91)
-print((result))
+print(round(result, 4))
